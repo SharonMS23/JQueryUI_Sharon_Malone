@@ -1,0 +1,120 @@
+body{
+	background-color: skyblue;
+}
+
+#general{
+	width: 560px;
+	height: 100%;
+	margin: auto;
+}
+
+#general .fila div{
+	display: block;
+	float: left;
+}
+
+#general .fila div{
+	width: 70px;
+	height: 70px;
+}
+
+#general div:nth-child(odd) div:nth-child(odd){
+	background-color: black;
+}
+
+#general div:nth-child(odd) div:nth-child(even){
+	background-color: #E8D8D4;
+}
+
+#general div:nth-child(even) div:nth-child(even){
+	background-color: black;
+}
+
+#general div:nth-child(even) div:nth-child(odd){
+	background-color: #E8D8D4;
+}
+
+/*
+---------------------------------------------------------------
+---------------------------------------------------------------
+*/
+
+#circle-arriba{
+	position: absolute;
+	top: 80px;
+	left: 372px;
+	width: 560px;
+	height: 220px;
+}
+
+#circle-arriba div div{
+	display: block;
+	float: left;
+}
+
+#circle-arriba div div{
+	width: 60px;
+	height: 60px;
+	margin: 5px;
+	background-color: red;
+	border-radius: 60px;
+}
+
+#circle-arriba div:nth-child(odd) div:nth-child(odd){
+	background-color: black;
+}
+
+#circle-arriba div:nth-child(odd) div:nth-child(even){
+	background-color: red;
+}
+
+#circle-arriba div:nth-child(even) div:nth-child(even){
+	background-color: black;
+}
+
+#circle-arriba div:nth-child(even) div:nth-child(odd){
+	background-color: red;
+}
+
+
+/*
+---------------------------------------------------------------
+---------------------------------------------------------------
+*/
+
+#circle-abajo{
+	position: absolute;
+	top: 430px;
+	left: 372px;
+	width: 560px;
+	height: 220px;
+}
+
+#circle-abajo div div{
+	display: block;
+	float: left;
+}
+
+#circle-abajo div div{
+	width: 60px;
+	height: 60px;
+	margin: 5px;
+	background-color: red;
+	border-radius: 60px;
+}
+
+#circle-abajo div:nth-child(odd) div:nth-child(odd){
+	background-color: blue;
+}
+
+#circle-abajo div:nth-child(odd) div:nth-child(even){
+	background-color: black;
+}
+
+#circle-abajo div:nth-child(even) div:nth-child(even){
+	background-color: blue;
+}
+
+#circle-abajo div:nth-child(even) div:nth-child(odd){
+	background-color: black;
+}
